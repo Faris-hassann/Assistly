@@ -34,22 +34,22 @@
             <div class="image">
                 <img src="../images/book.jpg" alt="book">
             </div>
-            <form action="">
-                <h3>Book Appointment</h3>
-                <h4>Enter your Full Name:</h4>
-                <input type="text" placeholder="Enter your Full Name..." name="" id="" class="box">
-                <h4>Enter your Phone Number:</h4>
-                <input type="number" placeholder="Enter your number..." name="" id="" class="box">
-                <h4>Enter your Address:</h4>
-                <input type="text" placeholder="Enter your Address..." name="" id="" class="box">
-                <h4>Upload your national id card :</h4>
-                <input type="file"  name="" id="" class="box">
-                <h4>Enter your Full Email:</h4>
-                <input type="Email" placeholder="Enter your Email..." name="" id="" class="box">
-                <h4>Enter the date:</h4>
-                <input type="date" name="" id="" class="box">
+            <form action="file.php" method="post">
+                <h3>Book Appointment <span dir="rtl">حجز موعد</span></h3>
+                <h4>Enter your Full Name: <span dir="rtl">أدخل اسمك الكامل</span></h4>
+                <input type="text" placeholder="Enter your Full Name..." name="full_name" id="full_name" class="box">
+                <h4>Enter your Phone Number: <span dir="rtl">أدخل رقم هاتفك</span></h4>
+                <input type="number" placeholder="Enter your number..." name="phone_number" id="phone_number" class="box">
+                <h4>Enter your Address: <span dir="rtl">:أدخل عنوانك</span></h4>
+                <input type="text" placeholder="Enter your Address..." name="address" id="address" class="box">
+                <h4>Upload your national id card: <span dir="rtl">ارفع بطاقة الهوية الوطنية</span></h4>
+                <input type="file" name="" id="" class="box">
+                <h4>Enter your Full Email: <span dir="rtl">أدخل بريدك الإلكتروني الكامل</span></h4>
+                <input type="Email" placeholder="Enter your Email..." name="email" id="email" class="box">
+                <h4>Enter the date: <span dir="rtl">أدخل التاريخ</span></h4>
+                <input type="date" name="date" id="date" class="box">
                 <input type="submit" value="Book now" name="" id="" class="box">
-            </form>
+            </form>            
         </div>
     </section>
     <!-- footer -->
